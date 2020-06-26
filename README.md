@@ -6,14 +6,32 @@ Locations: Brisbane, Gold Coast & Townsville.
 
 ## Metadata
 
-*Hs* - Significant wave height, an average of the highest third of the waves in a record (26.6 minute recording period).
-*Hmax* - The maximum wave height in the record.
-*Tz* - The zero upcrossing wave period.
-*Tp* - The peak energy wave period.
-*Dir_Tp* TRUE - Direction (related to true north) from which the peak period waves are coming from.
-*SST* - Approximation of sea surface temperature as measured by the buoy.
+*Date/Time* - Date and time | Type = datetime
+    Date and Time of data record, recorded in Australian Eastern Standard Time (AEST).
 
-## 1. Cleaning data
+*Hs* - Significant Wave Height | Type = number
+    Hs is the significant wave height or Hsig. It's the defined as the average of the highest one-third of wave heights in a wave record. This wave height closely approximates the value a person would see.
+
+*Hmax* - Highest Single Wave | Type = number
+    The height of the the highest single wave in a wave record.
+
+*Tz* - Zero Up-Crossing Wave Period | Type = number
+    The average of the zero up crossing wave periods in a wave record.
+
+*Tp* - Wave Period | Type = number
+    The wave period of those waves that are producing the most energy in a wave record.
+
+*Dir_Tp* TRUE - Wave Direction | Type = number
+    The direction that the peak waves are coming from, shown in degrees from true north.
+
+*SST* - Sea Surface Temperature | Type = number
+    The sea surface temperature at the wave monitoring buoy, in degrees Celsius.
+    
+# Process
+## 0. Finding the data
+
+## 1. Data cleaning + preparation
+
 
 
 
