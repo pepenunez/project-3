@@ -1,5 +1,9 @@
 # Data Visualizations with Tableau: Waves Report - Queensland
 
+## Goal and Requirements
+
+This is a project is part of the Ironhack bootcamp. The main goal is to acquire ability with Tableau. The timeframe given for this project was 1 full day + the weekend. 
+
 ## File Structure
 
 /data: contains the original files exported from data.gov.au/ organizad in folders by locations. It also contains 4 "clean files" (1 per each location) and "Queensland_waves_v2" with all the data aggregated. 
