@@ -6,10 +6,10 @@ This is a project is part of the Ironhack bootcamp. The main goal is to acquire 
 
 ## File Structure
 
-/data: contains the original files exported from data.gov.au/ organizad in folders by locations. It also contains 4 "clean files" (1 per each location) and "Queensland_waves_v2" with all the data aggregated. 
-/Data-cleaning.ipynb: Jupyter notebook file where I import, manipulate and clean the data to be exported. 
-/.gitignore: that contains Python's default configuration. 
-/tableau_visualizations: link to tableau public
+- /data: contains the original files exported from data.gov.au/ organizad in folders by locations. It also contains 4 "clean files" (1 per each location) and "waves_queensland.csv" with all the data aggregated. 
+- /Data-cleaning.ipynb: Jupyter notebook file where I import, manipulate and clean the data to be exported. 
+- /.gitignore: that contains Python's default configuration. 
+- /tableau_visualizations: link to tableau public
 
 ## Data
 Source: https://data.gov.au/
